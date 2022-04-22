@@ -1,0 +1,182 @@
+ @media(max-width:575px){ 
+    
+    /* pre-loader */
+    .pre-loader .gif-img {
+        width: auto;
+       height: auto;        
+    }
+    /*logo*/
+    .img-fluid {
+        width: 70%;
+        padding-top: 5px;
+        padding-bottom: -10px;
+        margin-bottom: -87px;
+    }
+
+    /*toggle bar*/
+
+    .navbar-nav li {        
+        padding-bottom: 50px;
+    }
+    .ban-text a {
+        padding: 22px 32px;
+        background-color: #fff;
+        margin-left: 61px;
+        
+    }
+    .header-text {
+        flex-wrap: wrap;
+    }
+    .header-text h6 {
+        margin-left: 37px;
+        margin-top: -23px;
+        width: 230px;
+        margin-right: 30px;
+    }
+    .face {
+        margin-left: 0;
+    }
+    .header input {
+        margin-left: -274px;
+        margin-top: 95px;
+    }
+    .search {
+        padding-left: 19px;
+        padding-top: 105px;
+    }
+    .savoir {
+        flex-wrap: wrap;
+    }
+    .sav2 h3 {
+        font-size: 24px;
+        padding-top: 105px;
+    }
+    .sav1 img {
+            padding-top: 0px;
+            width: 100%;
+            margin-top: -60px;
+    }
+    .sav2 h4 {
+        font-size: 27px;
+    }
+    .sav2 p {
+        line-height: 15px;
+        font-size: 14px;
+        
+    }
+    .ser-head h3 {
+        font-size: 16px;
+    }
+    .ser-head h4 {
+        font-size: 15px;
+    }
+    .card h5 {
+        font-size: 14px;
+       
+    }
+    .card-text {
+        line-height: 25px;
+        font-size: 13px;
+        text-align: left;
+    }
+    #review {
+        padding-top: 0px;
+        padding-bottom: 80px;
+    }
+    .rev-1 h4{
+        font-size: 12px;
+    }
+    .rev-1 h5 {
+        font-size: 12px;
+        
+    }
+    .footer-text h4 {
+        font-size: 22px;
+    }
+    .footer-text h5 {
+        font-size: 19px;
+     
+    }
+    input {
+        width: 200px;
+        height: 40px;
+    }
+    .form button {
+         padding: 2px -5px;
+    }
+    button, input, optgroup, select, textarea {
+        font-size: 8px;
+    }
+    .form button {
+        padding: 10px 13px;
+    }
+    .footer-i i {
+        font-size: 14px;
+        padding: 10px 12px;
+      
+    }
+    #contect {
+        margin-top: 30px;
+    }
+    .contact p {
+        line-height: 25px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .con-menu ul li {
+        padding-top: 3px;
+    }
+    #myBtn {
+        font-size: 12px;
+        padding: 7px;
+    }
+    .con-info a {
+        font-size: 13px;
+    }
+    .con-info h6 {
+        font-size: 15px;
+        
+    }
+    .con-open h5 {
+        font-size: 15px;
+
+    }
+    #copy h6 {
+        font-size: 11px;
+    }
+    #copy {
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+    
+    .accordion-button {
+        font-size: 13px;
+      
+    }
+    .accordion-body {
+        font-size: 13px;
+    }
+    .explanation {
+        flex-wrap: wrap;
+    }
+    .explain h4 {
+        font-size: 18px;
+    }
+
+    .explain p {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        padding-top: 143px;
+    }
+    
+
+
+}   
+
+
+@media (max-width:650px) {
+    .one .card {
+        margin: 20px -26px;
+    }
+}

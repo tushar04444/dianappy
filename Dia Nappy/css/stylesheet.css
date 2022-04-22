@@ -1,0 +1,787 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+/* header-part goes here */
+header{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    
+}
+.header-text{
+    width: 1000px;
+    margin-left: 30px;
+}
+.header-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14;
+    font-weight: 400;
+    color: #444;
+}
+.header-text i{
+    color: #000;
+    font-size: 20px;
+    padding: 0 10px;
+}
+a i{
+    color: #000;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.header input{
+    text-align: right;
+    margin-left: 170px;
+    border: none;
+    margin-right: 20px;
+    border: none;
+  
+}
+.header1{
+    width: 570px;
+}
+.header2{
+    width: 400px;
+}
+.search{
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.logo{
+    padding-top: 20px;
+}
+.navbar-nav li{
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 30px;
+
+}
+.nav-item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-item a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #181a1f;
+    transition: all linear .3s;
+}
+.nav-item a:hover{
+    color: #d28881 !important ;
+}
+#banner{
+    margin-top: 80px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.ban-over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 226, 218, 0.699);
+ 
+}
+.ban-text{
+    padding-top: 200px;
+}
+.ban-text h4{
+    text-align: left;
+    color: #cfbdaf;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 41px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 60%);
+    position: relative;
+}
+
+
+.ban-text h3{
+    color: #fff;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
+    margin-bottom: 260px;
+}
+.ban-a{
+    text-align: center;
+    margin-left: 550px;
+    transition: all linear .3s;
+}
+.ban-text a{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #181a1f;
+    padding: 22px 34px;
+    background-color: #fff;
+}
+.ban-a i{
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;  
+    color: #181a1f;
+    transition: all linear .3s;
+}
+.ban-a:hover{
+    background-color: #181a1f;
+    color: #fff;
+}
+.ban-a:hover i{
+    color: #fff;
+}
+
+#savoir{
+    padding-top: 40px;
+}
+.savoir{
+    padding-top: 10px;
+}
+.sav1{
+    /* width: 570px; */
+    margin-right: 60px;
+}
+.sav1 img{
+    padding-top: 60px;
+}
+.sav2 h3{
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #181a1f;
+   
+}
+.sav2 h4{
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #181a1f;
+    line-height:55px;
+    
+}
+.nav-item.active .nav-link {
+    color: #d28881;
+}
+.sav2 p{
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #181a1f;
+   max-width: 500px;
+}
+#service{
+    margin-top: 80px;
+
+}
+.ser-head h4{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 33.12px;
+}
+.ser-head h3{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 33.12px;
+    padding-right:10px;
+}
+
+
+/* card */
+.card-body1{
+    background-color: #feede9;
+}
+.card-body2{
+    background-color: #fefee9;
+   
+}
+.card-body3{
+    background-color: #e9ffea;
+}
+.card-body4{
+    background-color: #e9fdfe;
+}
+.card h5{
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #181a1f;
+    letter-spacing: 1px;
+}
+.ser-item{
+    padding-top: 60px;
+}
+.card-text{
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #181a1f;
+    padding-bottom: 50px;
+}
+.card-img{
+    position: relative;
+}
+.card-overlay{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 0;
+    height: 0;
+    background: linear-gradient(to right, rgba(51, 204, 255, 0.699) 0%, rgba(255, 153, 204, 0.699) 100%);
+    opacity: 0;
+    transition: all linear .3s;
+}
+.card-overlay h4{
+    color: #fff;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 33.12px;
+    padding-top: 60px;
+}
+.card-img:hover .card-overlay{
+    opacity: 1;
+    height: 90%;
+    width: 90%;
+    box-shadow: 5px 10px 18px red;
+}
+.slick-center .card-overlay{
+      opacity: 1;
+      width: 90%;
+      height: 90%;
+      box-shadow: 5px 10px 18px red;
+     
+}
+
+.slick-slide{
+    margin: 0 10px;
+}
+.slick-slide img{
+    width: 100%;
+}
+
+
+
+#footer{
+    margin-top: 80px;
+    background-color: #cfbdaf;
+    width: 100%;
+    padding: 80px 0;
+
+}
+.footer-text h4{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 33.12px;
+}
+.footer-text h5{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 31.2px;
+}
+.form{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+input{
+    width: 300px;
+    height: 50px;
+    padding-left: 20px;
+    
+}
+.form button{
+    padding: 10px 20px;
+    border: 3px solid #181a1f;
+    transition: all linear .3s;
+ 
+}
+.form button:hover{
+    background-color: #181a1f;
+    color: #fff;
+}
+.footer-i i{
+    font-size: 30px;
+    padding: 15px 20px;
+    border: 3px solid #181a1f;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: all linear .3s;
+}
+.footer-i i:hover{
+    scale: 0.9;
+    background-color: #181a1f;
+    color: #fff !important;
+}
+.footer-i h4{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 33.12px;
+    margin-bottom: 5px;
+}
+#contect{
+    margin-top: 80px;
+    background-color: #ece2da;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.contact p{
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    max-width: 200px;
+}
+.con-menu h5{
+    color: #000;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+}
+.con-menu ul li{
+    padding-top: 20px;
+}
+.con-menu a{
+    font-family: "Lato", Sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   text-transform: lowercase;
+   line-height: 30px;
+   color: #000;
+   transition: all linear .3s;
+}
+.con-menu a:hover{
+    color: #d28881;
+}
+.con-info h5{
+    color: #000;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+}
+.con-info h6{
+    padding-top: 10px;
+    color: #000;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+}
+.con-open h5{
+    color: #000;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+}
+.con-open h6{
+    padding-top: 10px;
+    color: #000;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-left: 25px;
+}
+#copy{
+    background: #222326;
+    width: 100%;
+   
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+#copy h6{
+    
+    color: #ffffff;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+  
+    letter-spacing: 1px;
+    
+}
+
+
+/* back-to-top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition: all linear .3s;
+  }
+  
+  #myBtn:hover {
+    background-color: #181a1f;
+    color: #fff;
+  }
+
+  #review{
+      padding-top:80px;
+      padding-bottom:80px;
+  }
+  #review h3{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+.rev-1 i{
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #181a1f;
+}
+.rev-1 h5{
+    text-align: center;
+    color: #292b2f;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.rev-1 h4{
+    text-align: right;
+    color: #292b2f;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 570px;
+    margin: 0 auto;
+}
+
+
+/* FAQ page */
+#qus{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.accordion-button{
+    background-color: #eaf4ea;
+    color: #292b2f;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.accordion-body{
+    background-color: #ddd;
+    color: #292b2f;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+   line-height: 24px;
+}
+.qus h3{
+    text-align: center;
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+
+#explanation{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#explanation h2{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 33.12px;
+    text-align: center;
+}
+.explain h4{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+    text-align: center;
+}
+.explanation{
+    margin-top: 60px;
+}
+.explain{
+    padding-top: 50px;
+}
+.explain p{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-align: left;
+}
+.ex2a{
+    width: 670px;
+ 
+}
+.ex2{
+    margin-left: 30px;
+}
+
+
+/* contect page */
+
+#con{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.con-head h3{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+   line-height: 36px;
+   letter-spacing: 1px;
+}
+.con-head h4{
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+#con h5{
+    padding: 10px 0;
+    color: #181a1f;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+#con h6{
+    color: #181a1f;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.con-info a{
+    color: #181a1f;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: lowercase;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.con-info a:hover{
+    color: darkkhaki;
+}
+
+/* pre-loader */
+
+.pre-loader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999999999999999999;
+    
+}
+.pre-loader .gif img{
+    position: absolute;
+    width: 100%;
+    height:100% ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+
+
+/* fixed menu */
+
+.bg{
+    background-color: rgba(17, 17, 17, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: -10px 0;
+    z-index: 9999;
+    
+    transition: all linear .3s;
+    animation: bg 1s ;
+}
+@keyframes bg{
+    from{top:-5px;}
+    to{top:0;}
+}
+.bg li a{
+    padding: -10px 0;
+}
+.bg a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    transition: all linear .3s;
+}
+.navbar-toggler{
+    color: #fff;
+}
+.face{
+    margin: 0;
+}
+
+
+#pri .nav{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#pri .nav button{
+    background-color: #cfbdaf;
+    margin: 5px 10px;
+    color: #000;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+#pri .nav button.active{
+    background-color: #181a1f;
+    color: #ddd;
+ 
+}
+.one{
+    margin-left: 60px;
+}
+.one .card{
+    margin: 20px 10px;
+}
+.one .card p{
+    text-align: center;
+    color: #181a1f;
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.two1 img{
+    width: 100%;
+    height: 500px;
+    padding-right: 30px;
+}
+.two2 h3{
+    font-family: "Work Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+.two2 h4{
+    font-family: "Work Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+
+}
+.two2 h4{
+    font-family: "Work Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1px;
+
+}
